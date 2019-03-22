@@ -1,0 +1,532 @@
+-> White (me) will be played by the local program called ./betsy.py
+   Black will be played by remote program running on tank port 4997
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x ........................................ 5
+5 .......................................x
+-> Checking that move is valid... 
+True
+
+.......................................x
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+.....
+....x
+
+-> Requesting move from other player...
+1 ...................................o...x
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+.....
+o...x
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x ...................................o...x 5
+4 ...................................o..xx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+.....
+o..xx
+
+-> Requesting move from other player...
+4 .................................o.o..xx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+...o.
+o..xx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x .................................o.o..xx 5
+3 .................................o.o.xxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+...o.
+o.xxx
+
+-> Requesting move from other player...
+1 ..............................o..o.o.xxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+o..o.
+o.xxx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x ..............................o..o.o.xxx 5
+2 ..............................o..o.oxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+o..o.
+oxxxx
+
+-> Requesting move from other player...
+3 ..............................o.oo.oxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+o.oo.
+oxxxx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x ..............................o.oo.oxxxx 5
+5 ..............................o.ooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+.....
+o.oox
+oxxxx
+
+-> Requesting move from other player...
+4 ............................o.o.ooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+...o.
+o.oox
+oxxxx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x ............................o.o.ooxoxxxx 5
+2 ............................o.oxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+.....
+...o.
+oxoox
+oxxxx
+
+-> Requesting move from other player...
+4 .......................o....o.oxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+...o.
+...o.
+oxoox
+oxxxx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x .......................o....o.oxooxoxxxx 5
+5 .......................o....oxoxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+.......................o....oxoxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+...o.
+...ox
+oxoox
+oxxxx
+
+-> Requesting move from other player...
+3 .......................o...ooxoxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+.......................o....oxoxooxoxxxx
+.......................o...ooxoxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+...o.
+..oox
+oxoox
+oxxxx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x .......................o...ooxoxooxoxxxx 5
+5 .......................ox..ooxoxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+.......................o....oxoxooxoxxxx
+.......................o...ooxoxooxoxxxx
+.......................ox..ooxoxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+...ox
+..oox
+oxoox
+oxxxx
+
+-> Requesting move from other player...
+1 .......................oxo.ooxoxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+.......................o....oxoxooxoxxxx
+.......................o...ooxoxooxoxxxx
+.......................ox..ooxoxooxoxxxx
+.......................oxo.ooxoxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+.....
+...ox
+o.oox
+oxoox
+oxxxx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x .......................oxo.ooxoxooxoxxxx 5
+5 ...................x...oxo.ooxoxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+.......................o....oxoxooxoxxxx
+.......................o...ooxoxooxoxxxx
+.......................ox..ooxoxooxoxxxx
+.......................oxo.ooxoxooxoxxxx
+...................x...oxo.ooxoxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+....x
+...ox
+o.oox
+oxoox
+oxxxx
+
+-> Requesting move from other player...
+3 ...................x..ooxo.ooxoxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+.......................o....oxoxooxoxxxx
+.......................o...ooxoxooxoxxxx
+.......................ox..ooxoxooxoxxxx
+.......................oxo.ooxoxooxoxxxx
+...................x...oxo.ooxoxooxoxxxx
+...................x..ooxo.ooxoxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+....x
+..oox
+o.oox
+oxoox
+oxxxx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x ...................x..ooxo.ooxoxooxoxxxx 5
+4 ..................xx..ooxo.ooxoxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+.......................o....oxoxooxoxxxx
+.......................o...ooxoxooxoxxxx
+.......................ox..ooxoxooxoxxxx
+.......................oxo.ooxoxooxoxxxx
+...................x...oxo.ooxoxooxoxxxx
+...................x..ooxo.ooxoxooxoxxxx
+..................xx..ooxo.ooxoxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+...xx
+..oox
+o.oox
+oxoox
+oxxxx
+
+-> Requesting move from other player...
+2 ..................xx..ooxooooxoxooxoxxxx
+-> Checking that move is valid... 
+True
+
+.......................................x
+...................................o...x
+...................................o..xx
+.................................o.o..xx
+.................................o.o.xxx
+..............................o..o.o.xxx
+..............................o..o.oxxxx
+..............................o.oo.oxxxx
+..............................o.ooxoxxxx
+............................o.o.ooxoxxxx
+............................o.oxooxoxxxx
+.......................o....o.oxooxoxxxx
+.......................o....oxoxooxoxxxx
+.......................o...ooxoxooxoxxxx
+.......................ox..ooxoxooxoxxxx
+.......................oxo.ooxoxooxoxxxx
+...................x...oxo.ooxoxooxoxxxx
+...................x..ooxo.ooxoxooxoxxxx
+..................xx..ooxo.ooxoxooxoxxxx
+..................xx..ooxooooxoxooxoxxxx
+-> New board state: 
+.....
+.....
+.....
+...xx
+..oox
+oooox
+oxoox
+oxxxx
+
+-> X (me) thinking...; in order to think I will execute:
+->                     ulimit -t 6; unbuffer ./betsy.py 5 x ..................xx..ooxooooxoxooxoxxxx 5
+
+-> Checking that move is valid... 
+IndexError: string index out of range
+ERROR:  x  MADE AN INVALID MOVE!!!!
+Old board: ..................xx..ooxooooxoxooxoxxxx
+NEW board: 
+RESULT,tajshaik-aparappi-sspatole-a2,inv,x,"IndexError: string index out of range",""

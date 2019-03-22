@@ -1,0 +1,25 @@
+Accuracy = 5%
+Los_Angeles,_CA
+['ca', 'los', '#job', 'angeles', '#hiring']
+San_Francisco,_CA
+['ca', 'san', '#sanfrancisco', 'francisco', '#job']
+Manhattan,_NY
+['new', 'york', 'ny', '#newyork', 'im']
+San_Diego,_CA
+['ca', 'san', '#sandiego', '#job', 'diego']
+Houston,_TX
+['tx', '#job', '#houston', 'houston', '#hiring']
+Chicago,_IL
+['chicago', 'il', '#chicago', '#job', '#hiring']
+Philadelphia,_PA
+['pa', 'philadelphia', '#philadelphia', '#job', 'im']
+Toronto,_Ontario
+['toronto', 'on', '#toronto', '#job', '#hiring']
+Atlanta,_GA
+['ga', '#atlanta', 'atlanta', '#job', '#hiring']
+Washington,_DC
+['dc', 'washington', '#job', '#washington', '#hiring']
+Boston,_MA
+['ma', 'boston', '#job', '#boston', '#hiring']
+Orlando,_FL
+['#orlpol', '#opd', '#orlando', 'fl', '#job']
